@@ -10,8 +10,8 @@
      <version>0.7.2</version>
   </parent>
 
-  <groupId>com.skype</groupId>
-  <artifactId>webappskype</artifactId>
+  <groupId>com,skype</groupId>
+  <artifactId>com.soolai</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
 
@@ -43,19 +43,9 @@
     </dependency>
     <dependency>
       <groupId>org.apache.camel.kafkaconnector</groupId>
-      <artifactId>com.skype</artifactId>
+      <artifactId>soolai</artifactId>
       <version>0.7.2</version>
     </dependency>
-     <dependency>
-  <groupId>com.heliorm</groupId>
-  <artifactId>mysql</artifactId>
-  <version>0.98</version>
-</dependency>
- <dependency>
-  <groupId>org.webjars.bowergithub.jcgueriaud</groupId>
-  <artifactId>google-map</artifactId>
-  <version>2.0.5</version>
-</dependency>
     <!-- Add your optional dependencies here -->
   </dependencies>
   <build>
